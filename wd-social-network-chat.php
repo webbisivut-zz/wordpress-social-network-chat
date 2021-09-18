@@ -6,7 +6,7 @@
  * Description: Add your favourite social media chat buttons easily to your WordPress website for easy contact.
  * Author: web-data.online
  * Requires at least: 4.0
- * Tested up to: 5.7
+ * Tested up to: 5.8.1
  *
  * Text Domain: wb-social-media-chat
  * Domain Path: /lang/

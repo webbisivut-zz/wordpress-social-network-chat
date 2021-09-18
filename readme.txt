@@ -3,7 +3,7 @@ Contributors: webdata
 Donate link: https://web-data.online/
 Tags: chat, whatsapp, line, facebook, messenger, vk, vkontakte, email, phone, viber, skype
 Requires at least: 4.0
-Tested up to: 5.7
+Tested up to: 5.8.1
 Stable tag: trunk
 Requires PHP: 5.4
 License: GPLv2 or later
@@ -13,12 +13,11 @@ Use your favorite social media channel to chat with your customers. Supports mul
 
 == Description ==
 
-<a href="https://web-data.online/docs/social-network-chat" target="_blank">Documentation</a>
+https://web-data.online/docs/social-network-chat
 
 Let your customers contact you with their favorite chat app. Give better support experience to your customers and improve your conversion.
 
 Easily integrate chat buttons to various channels, including WhatsApp, Facebook Messenger, VKontakte, LINE, Skype, Viber, Email and Phone. You can also create on custom link.
-
 
 Features:
 * Chat box for email with predefined message
@@ -61,17 +60,8 @@ Yes, no data is collected and no cookies are used.
 
 = How I can get support? =
 
-Docs: <a target="_blank" href="https://web-data.online/docs/">https://web-data.io/docs/</a>
+Docs: https://web-data.online/docs/
  
-Knowledge Base: <a target="_blank" href="https://web-data.online/knowledge-base/">https://web-data.io/knowledge-base/</a>
- 
-Smart Chat: <a target="_blank" href="https://web-data.online/support/">https://web-data.io/support/</a>
-
-== Screenshots ==
-
-1. Social Network Chat Main image
-2. Social Network Chat Three Channels
-
 == Changelog ==
 = 1.2.3 =
 * 2021-03-05
