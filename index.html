@@ -1,0 +1,342 @@
+<!DOCTYPE HTML>
+<!-- THE DOCTYPE tells the browser what type of webpage to render, the doctype used in this website is HTML5 which is the most recent HTML. -->
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>WordPress Social Network Chat Plugin</title>
+	<!-- THE TITLE element is the name of the page, it is also visible in the browser tab. Its always good practice to give each page an appropriate title. -->
+	<meta name="description" content="WordPress Social Network Chat">
+      <meta http-equiv="author" content="WebData Oy">
+      <meta name="keywords" content="wordpress, facebook, whatsapp, line, vkontakte, plugin">
+      <!-- These are META TAGS, they're used to describe the website, this information is read mainly by search engines like GOOGLE, YAHOO, ETC... -->	
+	<link rel="stylesheet" href="style.css">
+	<script src="http://localhost:8080/target/target-script-min.js#anonymous"></script>
+</head>
+<body>
+	<div class="container">
+<!-- THIS ACTUAL CONTENT BEGINS HERE...this is called a comment. which can only be seen when viewing the source code. This text CANNOT be seen by the browser. Its helpful when you need to place notes, comments or reminders in your code -->
+	<header>
+		<div class="header">
+			<h1>WordPress Social Network Chat by WebData</h1>
+		</div>
+	</header>
+	<!-- END HEADER | the header element in new to HTML5 -->
+    <div class="main">
+<h2 id="installation">Installation</h2>
+
+
+
+<p>Download plugin here: <a href="https://github.com/webbisivut/wordpress-social-network-chat" target="_blank" rel="noreferrer noopener">https://github.com/webbisivut/wordpress-social-network-chat</a></p>
+
+
+
+<p>On your WordPress dashboard, choose<em> Plugins – Add new.</em></p>
+
+
+
+<h2 id="settings">Settings</h2>
+
+
+
+<p>Choose “Social Network Chat” on your WordPress Dashboard to open the plugin settings page.</p>
+
+
+
+<p>On the main settings page, you can adjust the size of the contact buttons. You can also choose, if you like to use “Chat button”. This feature enables the <em>chat button</em>, and contact buttons will be visible when chat button is hovered. If you want to have contact buttons visible continuously, choose here “False”.</p>
+
+
+
+<h2 id="advanced-settings">Advanced settings</h2>
+
+
+
+<p><strong>Enable Google Analytics support</strong> – If enabled, every time when user has clicked one of the contact buttons, the plugin will launch a Google Analytics event. Events can be seen on Google Analytics dashboard under <em>Reports – Behaviour – Events</em>. More info: <a href="https://support.google.com/analytics/answer/1033068?hl=en" target="_blank" rel="noreferrer noopener">https://support.google.com/analytics/answer/1033068?hl=en</a></p>
+
+
+
+<p><strong>Enable WooCommerce button </strong>– If enabled, a chat button will be visible on products single page.</p>
+
+
+
+<p><strong>WooCommerce button text</strong> – Enter the text for the WooCommerce contact button</p>
+
+
+
+<p><strong>Shortcode button text</strong> – Use shortcode to place your contact button to any page or post.</p>
+
+
+
+<p><strong>Show contact buttons only on following pages</strong> – Contact buttons will be available on selected pages. Leave empty if you want to show contact buttons on every page and post.</p>
+
+
+
+<p><strong>PopUp pulse</strong> – Will add pulse effect to Chat button.</p>
+
+
+
+<p><strong>PopUp notice</strong> – Will add notice text above the contact and chat buttons.</p>
+
+
+
+<p><strong>PopUp box message</strong> – If PopUp notice is enabled, this message will be visible to the user.</p>
+
+
+
+<p><strong>Color options</strong> – Choose color for each channel button.</p>
+
+
+
+<h2 id="chat-agents">Chat Agents</h2>
+
+
+
+<p>Each of the channels can have 1 to 3 chat agents. If only one chat agent is enabled, user will be directed to the chosen chat application, once the user has clicked the chat app icon. If more than 1 chat agents are enabled, a chat box is shown for the user, where user needs to choose which chat agent the one wants to chat with.</p>
+
+
+
+<p>With email and WhatsApp accounts you also can use a message box with the chatbox. All the other accounts can be used only with the chatbox.</p>
+
+
+
+<p>When using WhatsApp or Email, you can also choose if you want to show a message box for the user. User message will be then sent to the WhatsApp chat application, when the user is directed to the app. You can also use WhatsApp with a single user agent and a message box. Chat box will be then present with the message box. Message box is only available when using WhatsApp or Email.</p>
+
+
+
+<h2 id="contact-buttons-settings">Contact buttons settings</h2>
+
+
+
+<p>All the contact buttons has similar settings. Enter your username to show the button, and then you can choose if you want to show the button only on desktop or mobile or on both devices. If you don’t want to show the button at all, just the username field blank.</p>
+
+
+
+<h2 id="channel-id-s">Channel id:s</h2>
+
+
+
+<p>Each channel can be enabled by entering the user id / phone number. If you want to disable some channel, just remove the user id / phone number and channel button won’t appear anymore.</p>
+
+
+
+<h3 id="whatsapp">WhatsApp</h3>
+
+
+
+<p>Get it here: <a href="https://www.whatsapp.com/" target="_blank" rel="noreferrer noopener">https://www.whatsapp.com/</a><br>Find support here: <a href="https://faq.whatsapp.com/" target="_blank" rel="noreferrer noopener">https://faq.whatsapp.com/</a></p>
+
+
+
+<p>You need to use international format and you need to omit any zeroes, brackets or dashes when adding the phone number in international format. For exmaple, if your country code is +1 and your phone number is 5551234567, you need to use the following format: 15551234567. More info here: <a href="https://faq.whatsapp.com/en/general/21016748" target="_blank" rel="noreferrer noopener">https://faq.whatsapp.com/en/general/21016748</a></p>
+
+
+
+<h3 id="line">LINE</h3>
+
+
+
+<p>Get it here: <a href="https://line.me/en/" target="_blank" rel="noreferrer noopener">https://line.me/en/</a><br>Find support here: <a href="https://help.line.me/" target="_blank" rel="noreferrer noopener">https://help.line.me/</a><br>LINE Official account: <a href="https://manager.line.biz" target="_blank" rel="noreferrer noopener">https://manager.line.biz</a></p>
+
+
+
+<p>You need to register LINE Official Account (Business account) in order to use LINE contact button. You can get LINE official account here: <a href="https://manager.line.biz" target="_blank" rel="noreferrer noopener">https://manager.line.biz</a></p>
+
+
+
+<p>After this you need to enable LINE ID from your device and turn on “Allow others to add me by ID” setting. Add this LINE ID then on plugin settings to enable LINE contact button. More info about LINE ID can be found here: <a href="https://help.line.me/line/ios/?contentId=20000126" target="_blank" rel="noreferrer noopener">https://help.line.me/line/ios/?contentId=20000126</a></p>
+
+
+
+<h3 id="skype">Skype</h3>
+
+
+
+<p>Get it here: <a href="https://www.skype.com/en/" target="_blank" rel="noreferrer noopener">https://www.skype.com/en/</a><br>Find support here: <a href="https://support.skype.com/en/skype/all/" target="_blank" rel="noreferrer noopener">https://support.skype.com/en/skype/all/</a></p>
+
+
+
+<p>You need to enter your Skype name at the plugin settings. There are two types of Skype accounts. You can use Skype with a username, and in this case your Skype name is your user name. You can also use Skype with your Microsoft account. In this case your Skype name is your Microsoft LIVE ID, for example: abc_1234567.</p>
+
+
+
+<p>More info: <a href="https://support.skype.com/en/faq/FA10858/what-s-my-skype-name" target="_blank" rel="noreferrer noopener">https://support.skype.com/en/faq/FA10858/what-s-my-skype-name</a></p>
+
+
+
+<h3 id="telegram">Telegram</h3>
+
+
+
+<p>Get it here: <a href="https://telegram.org/" target="_blank" rel="noreferrer noopener">https://telegram.org/</a><br>Find support here: <a href="https://telegram.org/faq" target="_blank" rel="noreferrer noopener">https://telegram.org/faq</a></p>
+
+
+
+<p>You need to enter your username at the plugin settings. Find your username at the settings page on your app and click on your profile to edit it and set your username. Enter then this username on plugin settings.</p>
+
+
+
+<p>More info: <a href="https://telegram.org/faq#q-what-are-usernames-how-do-i-get-one" target="_blank" rel="noreferrer noopener">https://telegram.org/faq#q-what-are-usernames-how-do-i-get-one</a></p>
+
+
+
+<h3 id="facebook-messenger">Facebook Messenger</h3>
+
+
+
+<p>Get it here: <a href="https://www.messenger.com/" target="_blank" rel="noreferrer noopener">https://www.messenger.com/</a><br>Find support here: <a href="https://www.facebook.com/help/messenger-app/" target="_blank" rel="noreferrer noopener">https://www.facebook.com/help/messenger-app/</a></p>
+
+
+
+<p>To user Messenger, you need to enter your username to the settings. You can find your username by opening the Messenger app, clicking on your profile picture and then locate “Username” section. Enter your username then to the plugin settings too (without the m.me/ part).</p>
+
+
+
+<p>More info: <a href="https://www.facebook.com/help/messenger-app/1047811435279151" target="_blank" rel="noreferrer noopener">https://www.facebook.com/help/messenger-app/1047811435279151</a></p>
+
+
+
+<h3 id="vkontakte">VKontakte</h3>
+
+
+
+<p>Get it here: <a href="https://vk.com/" target="_blank" rel="noreferrer noopener">https://vk.com/</a><br>Find support here: <a href="https://vk.com/support?act=home" target="_blank" rel="noreferrer noopener">https://vk.com/support?act=home</a></p>
+
+
+
+<p>To be able to use the VK chat button, you need to enter your username to the plugin settings. To find your username, open the mobile app, go to the settings (a cog in the upper right corner), choose Account – Short name. Enter your short name to the app settings and to the plugin settings too.</p>
+
+
+
+<p>More info to find your username: <a href="http://vkuid.com/" target="_blank" rel="noreferrer noopener">http://vkuid.com/</a></p>
+
+
+
+<h3 id="viber">Viber</h3>
+
+
+
+<p>Get it here: <a href="https://www.viber.com/" target="_blank" rel="noreferrer noopener">https://www.viber.com/</a><br>Find support here: <a href="https://support.viber.com/" target="_blank" rel="noreferrer noopener">https://support.viber.com/</a></p>
+
+
+
+<p>To use Viber you need to set the phone number associated with your account to the plugin settings. Use international phone format, for example if your country code is +1 and your phone number is 555123456, use format: +1555123456.</p>
+
+
+
+<h3 id="phone">Phone</h3>
+
+
+
+<p>Just enter your phone number. Use any format you like.</p>
+
+
+
+<h3 id="email">Email</h3>
+
+
+
+<p>Just enter your email address to the plugin settings and you are good to go.</p>
+
+
+
+<h3 id="custom-link">Custom link</h3>
+
+
+
+<p>Use any link you like, use any icon you like and use any color you like.</p>
+
+
+
+<h2 id="developers">Developers</h2>
+
+
+
+<p>Following hooks can be used to change settings:</p>
+
+
+
+<p>$success = apply_filters(‘wb_cta_thankyou’, $success);<br>$error = apply_filters(‘wb_cta_error’, $error);</p>
+
+
+
+<p>$email = apply_filters(‘wb_cta_input_email’, $email);<br>$message = apply_filters(‘wb_cta_input_message’, $message);<br>$submit = apply_filters(‘wb_cta_input_submit’, $submit);</p>
+
+
+
+<p>$email_header = apply_filters(‘wb_cta_input_email_header’, $email_header);</p>
+
+
+
+<p>$contactText = apply_filters(‘wb_cta_input_contact_text’, $contactText);</p>
+
+
+
+<p>$whatsapp_message = apply_filters(‘wb_cta_input_whatsapp_message’, $whatsapp_message);</p>
+
+
+
+<p>$whatsapp_submit = apply_filters(‘wb_cta_input_whatsapp_submit’, $whatsapp_submit);</p>
+
+
+
+<p>$whatsapp_header = apply_filters(‘wb_cta_input_whatsapp_header’, $whatsapp_header);</p>
+
+
+
+<p>$line_header = apply_filters(‘wb_cta_input_line_header’, $line_header);</p>
+
+
+
+<p>$skype_header = apply_filters(‘wb_cta_input_skype_header’, $skype_header);</p>
+
+
+
+<p>$facebook_header = apply_filters(‘wb_cta_input_facebook_header’, $facebook_header);</p>
+
+
+
+<p>$vkontakte_header = apply_filters(‘wb_cta_input_vkontakte_header’, $vkontakte_header);</p>
+
+
+
+<p>$viber_header = apply_filters(‘wb_cta_input_viber_header’, $viber_header);</p>
+
+
+
+<p>$telegram_header = apply_filters(‘wb_cta_input_telegram_header’, $telegram_header);</p>
+
+
+
+<p>$phone_header = apply_filters(‘wb_cta_input_phone_header’, $phone_header);</p>
+
+
+
+<p>$custom_header = apply_filters(‘wb_cta_input_custom_header’, $custom_header);</p>
+
+
+
+<p>$message = apply_filters(‘wb_cta_popup_message’, $message);</p>
+
+
+
+<p><strong>Example of usage:</strong></p>
+
+
+
+<p><em>function wb_cta_input_submit_function($submit) {</em><br><em>    $submit = ‘Send me now’;</em></p>
+
+
+
+<p><em>    return $submit;</em><br><em>}</em></p>
+
+
+
+<p><em>add_filter(‘wb_cta_input_submit’, ‘wb_cta_input_submit_function’);</em></p>
+
+   </div>
+	<footer>
+		&copy; WebData Oy, All Rigts Reserved.
+	</footer>
+	<!-- END FOOTER | the footer element is also new to HTML5 -->
+	</div>
+</body>
+</html>
